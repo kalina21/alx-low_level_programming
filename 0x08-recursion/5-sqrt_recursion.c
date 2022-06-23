@@ -5,9 +5,6 @@
  * @j: counter
  * Return: square root
  */
-
-
-
 int sqroot(int i, int j)
 {
 	if (j % (i / j) == 0)
@@ -27,6 +24,7 @@ int sqroot(int i, int j)
 
 	return (0 + sqroot(i, j + 1));
 }
+
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: input integer
